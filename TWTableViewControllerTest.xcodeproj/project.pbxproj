@@ -14,13 +14,13 @@
 		5AC6519119B079C0009BAEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6519019B079C0009BAEB2 /* main.m */; };
 		5AC6519519B079C0009BAEB2 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6519419B079C0009BAEB2 /* TWAppDelegate.m */; };
 		5AC6519819B079C0009BAEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC6519619B079C0009BAEB2 /* Main.storyboard */; };
-		5AC6519B19B079C0009BAEB2 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6519A19B079C0009BAEB2 /* TWViewController.m */; };
 		5AC6519D19B079C0009BAEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC6519C19B079C0009BAEB2 /* Images.xcassets */; };
 		5AC651A419B079C0009BAEB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC651A319B079C0009BAEB2 /* XCTest.framework */; };
 		5AC651A519B079C0009BAEB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC6518419B079C0009BAEB2 /* Foundation.framework */; };
 		5AC651A619B079C0009BAEB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC6518819B079C0009BAEB2 /* UIKit.framework */; };
 		5AC651AE19B079C0009BAEB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AC651AC19B079C0009BAEB2 /* InfoPlist.strings */; };
 		5AC651B019B079C0009BAEB2 /* TWTableViewControllerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC651AF19B079C0009BAEB2 /* TWTableViewControllerTestTests.m */; };
+		5AC651BB19B079E7009BAEB2 /* TWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC651BA19B079E7009BAEB2 /* TWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		5AC6519319B079C0009BAEB2 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
 		5AC6519419B079C0009BAEB2 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
 		5AC6519719B079C0009BAEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AC6519919B079C0009BAEB2 /* TWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
-		5AC6519A19B079C0009BAEB2 /* TWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
 		5AC6519C19B079C0009BAEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5AC651A219B079C0009BAEB2 /* TWTableViewControllerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWTableViewControllerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC651A319B079C0009BAEB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5AC651AB19B079C0009BAEB2 /* TWTableViewControllerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWTableViewControllerTestTests-Info.plist"; sourceTree = "<group>"; };
 		5AC651AD19B079C0009BAEB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AC651AF19B079C0009BAEB2 /* TWTableViewControllerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTableViewControllerTestTests.m; sourceTree = "<group>"; };
+		5AC651B919B079E7009BAEB2 /* TWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTableViewController.h; sourceTree = "<group>"; };
+		5AC651BA19B079E7009BAEB2 /* TWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				5AC6519319B079C0009BAEB2 /* TWAppDelegate.h */,
 				5AC6519419B079C0009BAEB2 /* TWAppDelegate.m */,
 				5AC6519619B079C0009BAEB2 /* Main.storyboard */,
-				5AC6519919B079C0009BAEB2 /* TWViewController.h */,
-				5AC6519A19B079C0009BAEB2 /* TWViewController.m */,
+				5AC651B919B079E7009BAEB2 /* TWTableViewController.h */,
+				5AC651BA19B079E7009BAEB2 /* TWTableViewController.m */,
 				5AC6519C19B079C0009BAEB2 /* Images.xcassets */,
 				5AC6518B19B079C0009BAEB2 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC6519119B079C0009BAEB2 /* main.m in Sources */,
+				5AC651BB19B079E7009BAEB2 /* TWTableViewController.m in Sources */,
 				5AC6519519B079C0009BAEB2 /* TWAppDelegate.m in Sources */,
-				5AC6519B19B079C0009BAEB2 /* TWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

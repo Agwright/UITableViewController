@@ -1,5 +1,5 @@
 //
-//  TWViewController.h
+//  TWTableViewController.h
 //  TWTableViewControllerTest
 //
 //  Created by Antony Wright on 29/08/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TWViewController : UIViewController
+@interface TWTableViewController : UITableViewController
 
 @end
